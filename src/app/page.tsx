@@ -1,5 +1,5 @@
-'use client'
-import { useStore } from '@/store/useStore'
+"use client";
+import { useStore } from "@/store/useStore";
 
 export default function Home() {
   const count = useStore((state) => state.count);
