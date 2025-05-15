@@ -1,25 +1,28 @@
-# Next.js Starter Template
+# Next.js 15 Starter Template
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-13+-black?logo=next.js)](https://nextjs.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3-blue?logo=tailwind-css)](https://tailwindcss.com/)
-[![Prisma](https://img.shields.io/badge/Prisma-4.15-blueviolet?logo=prisma)](https://www.prisma.io/)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-blue?logo=tailwind-css)](https://tailwindcss.com/)
+[![Prisma](https://img.shields.io/badge/Prisma-5-blueviolet?logo=prisma)](https://www.prisma.io/)
+[![TanStack Query](https://img.shields.io/badge/TanStack_Query-5.0-orange?logo=react-query)](https://tanstack.com/query/latest)
 
-A minimal, opinionated starter template for Next.js 13+ apps with:
+A **minimal, modern starter template** for full-stack Next.js 15+ projects with:
 
-- `src/` directory structure  
-- Tailwind CSS configured  
-- Prisma ORM ready (optional, configure `prisma/schema.prisma`)  
-- React Strict Mode enabled in `next.config.js`  
-- `tsconfig.json` configured with path aliasing (`@/` → `src/`)  
-- Basic `.gitignore`  
-- Preconfigured layouts and example pages using the Next.js App Router
+- ✅ `src/` directory structure (clean separation of concerns)
+- 🎨 Tailwind CSS preconfigured (v3.4+)
+- 🔮 React 19 support (Client + Server Components)
+- 🧠 [TanStack Query](https://tanstack.com/query/latest) ready for async data and caching
+- 🧩 Prisma ORM with `prisma/` folder and `.env.example`
+- 🛠️ Path aliasing with `@/` via `tsconfig.json`
+- 🧼 `.gitignore` and sensible project defaults
+- 🧱 App Router with layout and example page (no pages directory)
 
 ---
 
-## Quickstart: Scaffold a New Project
+## 🚀 Quickstart: Scaffold a New Project
 
-Use [`degit`](https://github.com/adeepika1991/degit) to create a new project without cloning git history:
+You can use [`degit`](https://github.com/adeepika1991/degit) to copy this repo without Git history:
 
 ```bash
 npx degit adeepika1991/nextjs-starter-repo my-new-project
